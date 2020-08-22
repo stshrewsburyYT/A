@@ -9,4 +9,4 @@ bot.load_extension("jishaku")
 async def on_ready():
     print("yes online now")
 
-bot.run(str(os.environ.get("TOKEN"))
+bot.run(str(os.environ.get("TOKEN")))
